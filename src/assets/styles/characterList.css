@@ -1,0 +1,21 @@
+.character-list {
+  width: 100vw;
+  position: relative;
+  padding: 80px;
+  background-color: rgb(38, 37, 44);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 37px;
+  & .characters {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 37px;
+  }
+}
